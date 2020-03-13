@@ -38,7 +38,7 @@ void merge(int *vetor, int init, int middle, int final){
 
 void mergesort(int *vetor, int init, int final){
   int middle = (final+init)/2;
-  printf("(%i %i), ", init, middle);
+  printf("(%i %i), ", init, final);
   if(init < final){
     mergesort(vetor, init, middle);
     mergesort(vetor, middle+1, final);
